@@ -1,27 +1,27 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-lawyer",
-      "description": "Professional portrait of a male lawyer in a modern office",
-      "imageUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBtYWxlJTIwbGF3eWVyfGVufDB8fHx8MTc3MTk1NDg1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional male lawyer"
+      "id": "legal-office-hero",
+      "description": "Antica biblioteca legale con libri rilegati in pelle",
+      "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXclMjBsaWJyYXJ5fGVufDB8fHx8MTc3NTk1MjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law library"
     },
     {
-      "id": "about-simone",
-      "description": "Close up portrait of Simone Grossi looking confident",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBzdWl0fGVufDB8fHx8MTc3MTk1NDg1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional man suit"
+      "id": "legal-documents-about",
+      "description": "Documenti legali, penna stilografica e occhiali su una scrivania",
+      "imageUrl": "https://images.unsplash.com/photo-1585829365294-bb7c63b3ecda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsZWdhbCUyMGRvY3VtZW50c3xlbnwwfHx8fDE3NzU5NTI2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal documents"
     },
     {
       "id": "legal-scales",
-      "description": "Golden justice scales on a wooden desk",
-      "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsZWdhbCUyMHNjYWxlc3xlbn|MHx8fHwxNzc1OTUyNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Bilancia della giustizia in ottone",
+      "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsZWdhbCUyMHNjYWxlc3xlbnwwfHx8fDE3NzU5NTI2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "legal scales"
     },
     {
       "id": "legal-gavel",
-      "description": "Wooden gavel on a legal book",
-      "imageUrl": "https://images.unsplash.com/photo-1453948576620-15d39223e7cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z2F2ZWx8ZW58MHx8fHwxNzc1OTUyNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Martelletto del giudice su un libro di legge",
+      "imageUrl": "https://images.unsplash.com/photo-1589216532372-1c2a167966b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWdhbCUyMGdhdmVsfGVufDB8fHx8MTc3NTk1MjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "legal gavel"
     }
   ]
