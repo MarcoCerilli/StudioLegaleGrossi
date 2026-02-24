@@ -20,12 +20,13 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function Home() {
   const heroImg = PlaceHolderImages.find(img => img.id === "hero-lawyer");
-  const aboutImg = PlaceHolderImages.find(img => img.id === "about-simona");
+  const aboutImg = PlaceHolderImages.find(img => img.id === "about-simone");
+  const scalesImg = PlaceHolderImages.find(img => img.id === "legal-scales");
   
   const services = [
     {
       title: "Diritto di Famiglia",
-      desc: "Separazioni, divorzi, affidamento minori e tutela dei diritti familiari con approccio empatico.",
+      desc: "Separazioni, divorzi, affidamento minori e tutela dei diritti familiari con approccio risolutivo.",
       icon: Users,
     },
     {
@@ -56,14 +57,14 @@ export default function Home() {
             <div className="z-10 space-y-8 text-center lg:text-left">
               <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-primary/10 text-primary border border-primary/20 animate-fade-in">
                 <ShieldCheck className="mr-2 h-4 w-4" />
-                <span>Professionalità ed Empatia</span>
+                <span>Integrità e Professionalità</span>
               </div>
               <h1 className="font-headline text-5xl md:text-7xl font-bold text-primary leading-tight">
-                Simona Grossi <br />
-                <span className="text-accent italic font-light">Avvocata</span>
+                Simone Grossi <br />
+                <span className="text-accent italic font-light">Avvocato</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-xl mx-auto lg:mx-0 font-body">
-                Al fianco dei cittadini e delle imprese per garantire giustizia e tutela dei diritti con competenza e dedizione costante.
+                Soluzioni legali concrete per cittadini e imprese, guidate da competenza e rigore professionale.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-7 text-lg rounded-2xl shadow-lg">
@@ -79,7 +80,7 @@ export default function Home() {
             <div className="relative z-10 mx-auto lg:mx-0 w-full max-w-[500px] aspect-square rounded-[3rem] overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
               <Image 
                 src={heroImg?.imageUrl || ""} 
-                alt={heroImg?.description || "Simona Grossi Avvocata"} 
+                alt={heroImg?.description || "Simone Grossi Avvocato"} 
                 fill 
                 className="object-cover"
                 data-ai-hint={heroImg?.imageHint}
@@ -98,8 +99,8 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
               <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-accent">Aree di Attività</h2>
-              <p className="font-headline text-4xl md:text-5xl font-bold text-primary">Eccellenza Legale in Diverse Discipline</p>
-              <p className="text-lg text-muted-foreground">Offriamo supporto legale completo, combinando l'approccio tradizionale con soluzioni innovative.</p>
+              <p className="font-headline text-4xl md:text-5xl font-bold text-primary">Eccellenza Legale e Strategia</p>
+              <p className="text-lg text-muted-foreground">Un approccio analitico e determinato per ogni sfida legale, garantendo la massima tutela.</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -124,7 +125,7 @@ export default function Home() {
                 <div className="aspect-[4/5] relative rounded-[4rem] overflow-hidden shadow-2xl z-10">
                   <Image 
                     src={aboutImg?.imageUrl || ""} 
-                    alt="Simona Grossi" 
+                    alt="Simone Grossi" 
                     fill 
                     className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
                     data-ai-hint={aboutImg?.imageHint}
@@ -136,31 +137,31 @@ export default function Home() {
                 <div className="absolute -bottom-10 left-10 z-20 bg-white p-6 rounded-2xl shadow-xl border max-w-[240px]">
                   <div className="flex items-center gap-3 mb-2">
                     <HeartHandshake className="text-accent h-6 w-6" />
-                    <span className="font-bold text-primary">Filosofia</span>
+                    <span className="font-bold text-primary">Missione</span>
                   </div>
-                  <p className="text-sm text-muted-foreground italic">"Ascoltare per capire, agire per risolvere. Ogni cliente è una storia di cui mi prendo cura personalmente."</p>
+                  <p className="text-sm text-muted-foreground italic">"Ogni caso merita una strategia su misura e un impegno instancabile per il risultato."</p>
                 </div>
               </div>
               
               <div className="space-y-8">
                 <div>
                   <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-accent mb-4">Chi Sono</h2>
-                  <h3 className="font-headline text-4xl md:text-5xl font-bold text-primary leading-tight">Avv. Simona Grossi</h3>
+                  <h3 className="font-headline text-4xl md:text-5xl font-bold text-primary leading-tight">Avv. Simone Grossi</h3>
                 </div>
                 
                 <div className="space-y-6 text-lg text-muted-foreground font-body">
                   <p>
-                    Con oltre quindici anni di esperienza nel foro, l'Avvocata Simona Grossi ha costruito una carriera basata sulla fiducia, l'integrità e la determinazione. Il suo studio legale è un punto di riferimento per chi cerca non solo una difesa tecnica eccellente, ma anche un supporto umano e comprensivo.
+                    L'Avvocato Simone Grossi esercita la professione forense con una visione moderna e dinamica del diritto. La sua esperienza è maturata attraverso anni di assistenza legale complessa, dove la precisione tecnica si unisce a una spiccata capacità di problem solving.
                   </p>
                   <p>
-                    Specializzata in Diritto di Famiglia e Successioni, Simona crede fermamente che la mediazione e il dialogo siano strumenti potenti, pur non esitando mai a tutelare fermamente gli interessi dei propri assistiti in sede giudiziale quando necessario.
+                    Lo studio si distingue per l'uso di strumenti tecnologici all'avanguardia per la gestione delle pratiche, garantendo trasparenza e velocità di risposta ai propri assistiti.
                   </p>
                   <ul className="space-y-4">
                     {[
-                      "Laureata con Lode presso l'Università degli Studi",
-                      "Membro dell'Osservatorio Nazionale Diritto di Famiglia",
-                      "Autrice di numerose pubblicazioni in materia civile",
-                      "Mediatrice familiare abilitata"
+                      "Patrocinante in Cassazione",
+                      "Esperto in Arbitrato e Mediazione",
+                      "Consulente per primarie aziende nazionali",
+                      "Formatore in ambito di protezione dati"
                     ].map((item, i) => (
                       <li key={i} className="flex items-center gap-3 text-primary font-medium">
                         <CheckCircle2 className="h-5 w-5 text-accent" />
@@ -174,28 +175,48 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Legal Symbolism Section (Bonus for "Bilancia etc") */}
+        <section className="py-24 bg-white overflow-hidden">
+          <div className="container mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <h2 className="font-headline text-3xl font-bold text-primary">Giustizia ed Equilibrio</h2>
+                <p className="text-lg text-muted-foreground italic">
+                  "La legge è uguale per tutti, ma la sua applicazione richiede equilibrio e una profonda conoscenza dei meccanismi giuridici."
+                </p>
+                <div className="h-1 w-20 bg-accent" />
+              </div>
+              <div className="relative aspect-video rounded-3xl overflow-hidden shadow-xl">
+                <Image 
+                  src={scalesImg?.imageUrl || ""} 
+                  alt="Bilancia della Giustizia" 
+                  fill 
+                  className="object-cover"
+                  data-ai-hint={scalesImg?.imageHint}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* AI Assistant Section */}
-        <section id="assistente-ai" className="py-24 bg-white">
+        <section id="assistente-ai" className="py-24 bg-background">
           <div className="container mx-auto px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent font-bold text-xs uppercase tracking-wider mb-2">
                 <BookOpen className="h-3.5 w-3.5" />
-                Innovazione Legale
+                Diritto & Tecnologia
               </div>
-              <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">Consulenza Preliminare Gratuita</h2>
-              <p className="text-lg text-muted-foreground">Utilizza il nostro assistente virtuale alimentato da intelligenza artificiale per ottenere risposte rapide a domande legali generiche.</p>
+              <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">Assistenza Informativa AI</h2>
+              <p className="text-lg text-muted-foreground">Poni le tue domande al nostro assistente intelligente per orientarti tra le materie legali.</p>
             </div>
             
             <AiChat />
-            
-            <p className="mt-12 text-center text-sm text-muted-foreground max-w-xl mx-auto italic">
-              Nota: L'assistente AI fornisce informazioni generali e non sostituisce il parere di un avvocato professionista. Per casi specifici, consigliamo di prenotare un appuntamento.
-            </p>
           </div>
         </section>
 
         {/* Contact Section */}
-        <section id="contatti" className="py-24 bg-background overflow-hidden relative">
+        <section id="contatti" className="py-24 bg-white overflow-hidden relative">
           <div className="container mx-auto px-6 relative z-10">
             <ContactForm />
           </div>
@@ -210,10 +231,10 @@ export default function Home() {
             <div className="space-y-6">
               <div className="flex items-center gap-2">
                 <Scale className="h-8 w-8 text-accent" />
-                <span className="font-headline text-2xl font-bold tracking-tighter">Simona Grossi</span>
+                <span className="font-headline text-2xl font-bold tracking-tighter">Simone Grossi</span>
               </div>
               <p className="text-primary-foreground/70 leading-relaxed">
-                Difesa legale d'eccellenza, impegno etico e attenzione al cliente. Il vostro successo legale è il nostro obiettivo primario.
+                Difesa legale d'eccellenza e consulenza strategica. Impegno e trasparenza al servizio del diritto.
               </p>
             </div>
             
@@ -242,15 +263,14 @@ export default function Home() {
               <ul className="space-y-4 text-primary-foreground/70">
                 <li>Privacy Policy</li>
                 <li>Cookie Policy</li>
-                <li>Termini e Condizioni</li>
                 <li>Note Legali</li>
               </ul>
             </div>
           </div>
           
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/50">
-            <p>© {new Date().getFullYear()} Avv. Simona Grossi. Tutti i diritti riservati.</p>
-            <p>P.IVA 01234567890 | Ordine degli Avvocati di Roma</p>
+            <p>© {new Date().getFullYear()} Avv. Simone Grossi. Tutti i diritti riservati.</p>
+            <p>P.IVA 09876543210 | Ordine degli Avvocati di Roma</p>
           </div>
         </div>
       </footer>

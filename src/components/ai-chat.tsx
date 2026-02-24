@@ -7,7 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Send, Bot, User, Loader2, Sparkles, AlertCircle } from "lucide-react";
-import { Alert, AlertDescription } from "@/components/ui/alert";
 
 type Message = {
   role: "user" | "assistant";
@@ -19,7 +18,7 @@ export function AiChat() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Salve, sono l'assistente virtuale dello studio legale Grossi. In cosa posso esserle utile oggi? Posso rispondere a domande legali generiche.",
+      content: "Buongiorno, sono l'assistente virtuale dello studio legale Grossi. Come posso aiutarla oggi? Posso fornirle informazioni generali su questioni legali.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -65,8 +64,8 @@ export function AiChat() {
             <Sparkles className="h-6 w-6" />
           </div>
           <div>
-            <CardTitle className="font-headline">Assistente Legale AI</CardTitle>
-            <CardDescription className="text-muted-foreground">Chiedi informazioni generiche su materie legali</CardDescription>
+            <CardTitle className="font-headline text-primary">Assistente Legale AI</CardTitle>
+            <CardDescription className="text-muted-foreground">Ottieni chiarimenti su materie giuridiche</CardDescription>
           </div>
         </div>
       </CardHeader>
@@ -116,7 +115,7 @@ export function AiChat() {
           <Input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Scrivi qui la tua domanda..."
+            placeholder="Scrivi qui la tua domanda legale..."
             className="flex-1"
             disabled={isLoading}
           />

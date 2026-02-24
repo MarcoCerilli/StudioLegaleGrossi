@@ -2,27 +2,27 @@
   "placeholderImages": [
     {
       "id": "hero-lawyer",
-      "description": "Professional portrait of a female lawyer in an office",
-      "imageUrl": "https://images.unsplash.com/photo-1704655295066-681e61ecca6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBsYXd5ZXIlMjBvZmZpY2V8ZW58MHx8fHwxNzcxOTUyNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional lawyer office"
+      "description": "Professional portrait of a male lawyer in a modern office",
+      "imageUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBtYWxlJTIwbGF3eWVyfGVufDB8fHx8MTc3MTk1NDg1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional male lawyer"
     },
     {
-      "id": "about-simona",
-      "description": "Close up portrait of Simona Grossi smiling professionally",
-      "imageUrl": "https://images.unsplash.com/photo-1716237442776-71a0895d94f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MTg2ODUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional woman portrait"
+      "id": "about-simone",
+      "description": "Close up portrait of Simone Grossi looking confident",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBzdWl0fGVufDB8fHx8MTc3MTk1NDg1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional man suit"
     },
     {
-      "id": "service-family",
-      "description": "Abstract legal scales or family silhouette",
-      "imageUrl": "https://images.unsplash.com/photo-1569168667173-3135c858287f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqdXN0aWNlJTIwZmFtaWx5fGVufDB8fHx8MTc3MTk1MjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "justice family"
+      "id": "legal-scales",
+      "description": "Golden justice scales on a wooden desk",
+      "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsZWdhbCUyMHNjYWxlc3xlbn|MHx8fHwxNzc1OTUyNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal scales"
     },
     {
-      "id": "service-civil",
-      "description": "Courtroom or legal documents",
-      "imageUrl": "https://images.unsplash.com/photo-1628665843512-b516cf20d849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYXclMjBkb2N1bWVudHN8ZW58MHx8fHwxNzcxOTUyNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "law documents"
+      "id": "legal-gavel",
+      "description": "Wooden gavel on a legal book",
+      "imageUrl": "https://images.unsplash.com/photo-1453948576620-15d39223e7cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z2F2ZWx8ZW58MHx8fHwxNzc1OTUyNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal gavel"
     }
   ]
 }

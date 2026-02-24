@@ -10,7 +10,7 @@
 import { ai } from '@/ai/genkit';
 import { z } from 'genkit';
 
-const LEGAL_DISCLAIMER = "Disclaimer: The information provided here is for general informational purposes only and does not constitute legal advice. For specific legal guidance, please consult with a qualified attorney.";
+const LEGAL_DISCLAIMER = "Disclaimer: Le informazioni fornite sono a scopo puramente informativo e non costituiscono consulenza legale. Per un parere specifico, consultare direttamente l'avvocato.";
 
 const AiLegalAssistantQueryInputSchema = z.object({
   question: z
@@ -39,7 +39,7 @@ const legalAssistantPrompt = ai.definePrompt({
   name: 'legalAssistantPrompt',
   input: { schema: AiLegalAssistantQueryInputSchema },
   output: { schema: AiLegalAssistantQueryInternalOutputSchema },
-  prompt: `You are a helpful AI legal assistant for the law firm of Simona Grossi. Your purpose is to provide general information about legal matters based on the client's question. It is crucial that you *do not* provide legal advice, opinions, or specific recommendations. Keep your answers clear, concise, and easy to understand.\n\nQuestion: {{{question}}}\n\nPlease provide a general answer to the question. Do not include any disclaimers in your answer, as a separate disclaimer will be added.`,
+  prompt: `Sei un assistente AI professionale per lo studio legale dell'Avvocato Simone Grossi. Il tuo scopo è fornire informazioni generali su questioni legali basate sulla domanda dell'utente. È fondamentale che tu *non* fornisca consulenza legale specifica, opinioni vincolanti o raccomandazioni personalizzate. Mantieni le risposte chiare, concise e professionali.\n\nDomanda: {{{question}}}\n\nFornisci una risposta generale. Non includere disclaimer nella risposta, poiché verranno aggiunti separatamente. Rispondi in italiano.`,
 });
 
 const aiLegalAssistantQueryFlow = ai.defineFlow(
@@ -51,7 +51,7 @@ const aiLegalAssistantQueryFlow = ai.defineFlow(
   async (input) => {
     const { output } = await legalAssistantPrompt(input);
     if (!output?.answer) {
-      throw new Error("AI did not provide an answer.");
+      throw new Error("L'AI non ha fornito una risposta.");
     }
     return {
       answer: output.answer,

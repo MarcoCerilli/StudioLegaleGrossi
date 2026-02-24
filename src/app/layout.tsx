@@ -2,8 +2,8 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Simona Grossi | Avvocata',
-  description: 'Sito professionale dell\'Avvocata Simona Grossi. Consulenza legale esperta con empatia e professionalità.',
+  title: 'Simone Grossi | Avvocato',
+  description: 'Sito professionale dell\'Avvocato Simone Grossi. Consulenza legale esperta con integrità e professionalità.',
 };
 
 export default function RootLayout({

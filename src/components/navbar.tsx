@@ -9,8 +9,8 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Scale className="h-8 w-8 text-primary" />
           <div className="flex flex-col">
-            <span className="font-headline text-xl font-bold tracking-tighter text-primary">Simona Grossi</span>
-            <span className="text-xs uppercase tracking-widest text-muted-foreground">Avvocata</span>
+            <span className="font-headline text-xl font-bold tracking-tighter text-primary">Simone Grossi</span>
+            <span className="text-xs uppercase tracking-widest text-muted-foreground">Avvocato</span>
           </div>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
