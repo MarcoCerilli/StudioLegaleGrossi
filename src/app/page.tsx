@@ -18,6 +18,7 @@ import {
   BookOpen
 } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import Link from "next/link";
 
 export default function Home() {
   const heroImg = PlaceHolderImages.find(img => img.id === "legal-office-hero");
@@ -68,12 +69,11 @@ export default function Home() {
                 Soluzioni legali concrete per cittadini e imprese, guidate da competenza e rigore professionale.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-6 py-6 text-lg rounded-xl shadow-lg">
-                  Consulenza Legale
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                <Button  asChild size="lg" className="bg-primary hover:bg-primary/90 text-white px-6 py-6 text-lg rounded-xl shadow-lg">
+                  <Link href="#contatti">Consulenza Legale</Link>
                 </Button>
-                <Button size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/5 px-6 py-6 text-lg rounded-xl">
-                  Scopri i Servizi
+                <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/5 px-6 py-6 text-lg rounded-xl">
+                  <Link href="#servizi">Scopri i Servizi</Link>
                 </Button>
               </div>
             </div>
