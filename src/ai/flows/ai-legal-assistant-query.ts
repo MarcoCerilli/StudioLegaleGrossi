@@ -39,7 +39,7 @@ const legalAssistantPrompt = ai.definePrompt({
   name: 'legalAssistantPrompt',
   input: { schema: AiLegalAssistantQueryInputSchema },
   output: { schema: AiLegalAssistantQueryInternalOutputSchema },
-  prompt: `Sei un assistente AI professionale per lo studio legale dell'Avvocato Simone Grossi. Il tuo scopo è fornire informazioni generali su questioni legali basate sulla domanda dell'utente. È fondamentale che tu *non* fornisca consulenza legale specifica, opinioni vincolanti o raccomandazioni personalizzate. Mantieni le risposte chiare, concise e professionali.\n\nDomanda: {{{question}}}\n\nFornisci una risposta generale. Non includere disclaimer nella risposta, poiché verranno aggiunti separatamente. Rispondi in italiano.`,
+  prompt: `Sei un assistente AI professionale per lo studio legale dell'Avvocato Simona Grossi. Il tuo scopo è fornire informazioni generali su questioni legali basate sulla domanda dell'utente. È fondamentale che tu *non* fornisca consulenza legale specifica, opinioni vincolanti o raccomandazioni personalizzate. Mantieni le risposte chiare, concise e professionali.\n\nDomanda: {{{question}}}\n\nFornisci una risposta generale. Non includere disclaimer nella risposta, poiché verranno aggiunti separatamente. Rispondi in italiano.`,
 });
 
 const aiLegalAssistantQueryFlow = ai.defineFlow(

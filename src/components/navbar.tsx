@@ -10,7 +10,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Scale className="h-7 w-7 text-primary" />
           <div className="flex flex-col">
-            <span className="font-headline text-lg font-bold tracking-tighter text-primary leading-none">Simone Grossi</span>
+            <span className="font-headline text-lg font-bold tracking-tighter text-primary leading-none">Simona Grossi</span>
             <span className="text-[10px] uppercase tracking-widest text-muted-foreground">Avvocato</span>
           </div>
         </Link>

@@ -61,7 +61,7 @@ export default function Home() {
                 <span>Integrità e Professionalità</span>
               </div>
               <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary leading-tight">
-                Simone Grossi <br />
+                Simona Grossi <br />
                 <span className="text-accent italic font-light">Avvocato</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 font-body">
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="relative z-10 mx-auto lg:mx-0 w-full max-w-[500px] aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl transition-transform duration-500">
               <Image 
                 src={heroImg?.imageUrl || ""} 
-                alt={heroImg?.description || "Studio Legale Simone Grossi"} 
+                alt={heroImg?.description || "Studio Legale Simona Grossi"} 
                 fill 
                 className="object-cover"
                 data-ai-hint={heroImg?.imageHint}
@@ -151,7 +151,7 @@ export default function Home() {
                 
                 <div className="space-y-4 text-muted-foreground font-body">
                   <p>
-                    L'Avvocato Simone Grossi esercita la professione forense con una visione moderna e dinamica del diritto. La sua esperienza è maturata attraverso anni di assistenza legale complessa, dove la precisione tecnica si unisce a una spiccata capacità di problem solving.
+                    L'Avvocato Simona Grossi esercita la professione forense con una visione moderna e dinamica del diritto. La sua esperienza è maturata attraverso anni di assistenza legale complessa, dove la precisione tecnica si unisce a una spiccata capacità di problem solving.
                   </p>
                   <p>
                     Lo studio si distingue per l'uso di strumenti tecnologici all'avanguardia per la gestione delle pratiche, garantendo trasparenza e velocità di risposta ai propri assistiti.
@@ -231,7 +231,7 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Scale className="h-6 w-6 text-accent" />
-                <span className="font-headline text-xl font-bold tracking-tighter">Simone Grossi</span>
+                <span className="font-headline text-xl font-bold tracking-tighter">Simona Grossi</span>
               </div>
               <p className="text-primary-foreground/70 text-sm leading-relaxed">
                 Difesa legale d'eccellenza e consulenza strategica. Impegno e trasparenza al servizio del diritto.
@@ -263,13 +263,13 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-primary-foreground/70">
                 <li>Via delle Leggi, 12</li>
                 <li>00100 Roma (RM)</li>
-                <li>studio@simonegrossi.it</li>
+                <li>studio@simonagrossi.it</li>
               </ul>
             </div>
           </div>
           
           <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-primary-foreground/50">
-            <p>© {new Date().getFullYear()} Avv. Simone Grossi. Tutti i diritti riservati.</p>
+            <p>© {new Date().getFullYear()} Avv. Simona Grossi. Tutti i diritti riservati.</p>
             <p>P.IVA 09876543210 | Ordine degli Avvocati di Roma</p>
           </div>
         </div>
