@@ -103,8 +103,9 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative z-10 w-full flex justify-center lg:justify-end">
-              <div className="relative w-full max-w-[520px] aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl group">
+            <div className="relative z-10 w-full flex justify-center lg:justify-end lg:pr-12">
+              {/* Contenitore Immagine Ridotto */}
+              <div className="relative w-full max-w-[320px] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl group border border-white/20">
                 <Image
                   src={heroImg?.imageUrl || ""}
                   alt="Avvocato Simona Grossi Terracina"
@@ -112,9 +113,12 @@ export default function Home() {
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   unoptimized
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent" />
+                {/* Overlay sfumato */}
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent" />
               </div>
-              <div className="absolute -bottom-6 -right-6 -z-10 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
+
+              {/* Glow decorativo di sfondo proporzionato */}
+              <div className="absolute -bottom-8 -right-8 -z-10 w-48 h-48 bg-[#723d5a]/10 rounded-full blur-3xl opacity-60" />
             </div>
           </div>
         </section>
