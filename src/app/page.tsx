@@ -193,9 +193,19 @@ export default function Home() {
                 </div>
                 <div className="space-y-6 text-muted-foreground font-body text-lg">
                   <p>
-                    L'Avvocato Simona Grossi esercita la professione forense con
-                    una visione moderna del diritto, unendo precisione tecnica a
-                    una spiccata capacità di problem solving.
+                    L’Avvocato Simona Grossi cura e segue, per imprese e
+                    privati, anche in staff, con esperti delle materie, i
+                    seguenti settori del diritto civile: recupero crediti;
+                    contratti bancari e assicurativi; responsabilità
+                    professionale; separazioni, divorzi e adozioni; successioni
+                    ereditarie; riconoscimento della cittadinanza italiana iure
+                    sanguinis; gestione dei patrimoni immobiliari
+                    (contrattualistica, assistenza nelle vendite giudiziarie,
+                    costituzione e gestione del Trust). L’assistenza,
+                    stragiudiziale e giudiziale, garantisce l’attento esame del
+                    caso concreto e l’individuazione della migliore soluzione in
+                    termini di tempi e oneri, tenendo principalmente conto delle
+                    esigenze del cliente.
                   </p>
                   <p>
                     Lo studio riceve su appuntamento nel territorio di{" "}
